@@ -11,6 +11,14 @@ public class Car {
 
     }
 
+    public static void brake(){
+        System.out.println("El veiculo està frenando");
+    }
+
+    public void accelerate() {
+        System.out.println("El veiculo està accelerando");
+    }
+
     public static String getModel() {
         return model;
     }
