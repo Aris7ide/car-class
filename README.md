@@ -18,4 +18,7 @@
         Todos los que son estaticos, si se cambia en un objeto se cambiarà en
         todos los objetos. 
 
-
+## Valoraciones
+    Añadiendo un setModel() al main, cada vez que cambiamos el model del coche 
+    este mismo cambia para todos los coches, demonstrando el static del atributo
+    model.
