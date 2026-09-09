@@ -3,7 +3,7 @@ package com.model;
 public class Car {
 
     public static final String BRAND = "Mercedes";
-    private static String model = "";
+    private static String model = "GLS";
     private final int power;
 
     public Car(int power) {
