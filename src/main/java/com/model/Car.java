@@ -2,13 +2,13 @@ package com.model;
 
 public class Car {
 
-    public static final String BRAND = "Mercedes";
-    private static String model = "GLS";
+    private static final String BRAND = "Mercedes";
+    private static String model;
     private final int power;
 
-    public Car(int power) {
+    public Car(int power, String model) {
         this.power = power;
-
+        this.model = model;
     }
 
     public static void brake(){
